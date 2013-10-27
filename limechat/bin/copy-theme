@@ -1,0 +1,2 @@
+#!/bin/sh
+cp -vf kud.css kud.yaml ~/Library/Application\ Support/LimeChat/Themes/
