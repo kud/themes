@@ -1,25 +1,27 @@
 /*
-	KUD THEME FOR LIMECHAT
+  KUD THEME FOR LIMECHAT
 
-	put this and the other thing in ~/Library/Application Support/LimeChat/Themes/
+  put this and the other thing in ~/Library/Application Support/LimeChat/Themes/
 
-	bg          1a2230
-	hlight      273146
-	red         e44347
-	purps       8b84d0
-	fuscia      c2339a
-	orange      d28f59
-	l mint      85abb5
-	m mint      688790
-	d mint      415459
-	green       88c26b
-	blue        00afca
+  bg          1a2230
+  hlight      273146
+  red         e44347
+  purps       8b84d0
+  fuscia      c2339a
+  orange      d28f59
+  l mint      85abb5
+  m mint      688790
+  d mint      415459
+  green       88c26b
+  blue        00afca
 */
 
 html {
-  font-family: 'Menlo';
-  font-size: 12px;
-  line-height: 18px;
+  /*font-family: 'Menlo';*/
+  font-family: 'Ubuntu Mono';
+  /*font-size: 12px;*/
+  font-size: 14px;
+  line-height: 20px;
   /*background-color: #1a2230;*/
   background-color: #26292C;
   color: white;
@@ -48,7 +50,7 @@ a:hover { text-decoration: none; }
 .line[alternate=even] {}
 .line[alternate=odd] {}
 .line[type=action] {
-	font-style: italic;
+  font-style: italic;
 }
 .line[type=action] .sender:before {
   content: "";

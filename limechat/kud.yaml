@@ -2,13 +2,17 @@ log-view:
   nickname-format: '%n ➤ '
   scroller-highlight-color: '#c2339a'
 input-text:
-  font-family: 'Menlo'
-  font-size: 12.0
+  # font-family: 'Menlo'
+  font-family: 'Ubuntu Mono'
+  # font-size: 12.0
+  font-size: 14.0
   background-color: '#26292C'
   color: '#fff'
 member-list:
-  font-family: 'Menlo'
-  font-size: 12.0
+  # font-family: 'Menlo'
+  font-family: 'Ubuntu Mono'
+  # font-size: 12.0
+  font-size: 14.0
   # color: '#688790'
   color: 'white'
   background-color: '#26292C'
@@ -23,8 +27,10 @@ member-list:
       top-color: '#273146
       bottom-color: '#273146'
 server-tree:
-  font-family: 'Menlo'
-  font-size: 12.0
+  # font-family: 'Menlo'
+  font-family: 'Ubuntu Mono'
+  # font-size: 12.0
+  font-size: 14.0
   background-color: '#26292C'
   highlight:
     color: '#72AACA'
