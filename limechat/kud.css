@@ -43,7 +43,54 @@ body[channelname=#Tumblr] {}
 hr { margin: 0.5em 2em; }
 a { color: #00afca; }
 a:hover { text-decoration: none; }
-.inlineimage {}
+
+a[imageindex] {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 1rem;
+  padding: 0;
+  max-width: 95%;
+  opacity: .5;
+  transition: all .5s ease;
+}
+
+  a[imageindex]:hover {
+    opacity: 1;
+  }
+
+  a[imageindex]:after {
+    content: "";
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #222;
+    border-radius: 0px;
+/*    box-shadow: inset rgba(255,255,255, .7) 0 0 2px,
+          inset rgba(255,255,255, .2) 0 0 10px;
+    background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 50.5%);*/
+    box-shadow: none;
+    background: none;
+  }
+
+  .inlineimage {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0px;
+    /*, border, & 2 x inner glow*/
+    /*box-shadow: 1px 1px 2px rgba(0,0,0, .6);*/
+    box-shadow: none;
+  }
+
+    a[imageindex] + a[imageindex] {
+      margin-left: 1rem;
+    }
 
 /* lines */
 .line { padding: 0px 5px 0px 10px; }
@@ -69,7 +116,8 @@ a:hover { text-decoration: none; }
 /*.sender[type=myself] { color: #8b84d0; }*/
 .sender[type=myself] { color: #72AACA; }
 /*.sender[type=normal] { color: #88c26b; }*/
-.sender[type=normal] { color: #B6D877; }
+/*.sender[type=normal] { color: #B6D877; }*/
+.sender[type=normal] { color: #69E14B; }
 .sender[type=normal][colornumber='0'] {}
 .sender[type=normal][colornumber='1'] {}
 .sender[type=normal][colornumber='2'] {}
