@@ -103,7 +103,7 @@ a[imageindex] {
   content: "";
 }
 .line[highlight=true] {
-  background-color: #202325;
+  background-color: #212426;
 }
 
 .url { word-break: break-all; }
@@ -146,11 +146,11 @@ a[imageindex] {
 .message[type=privmsg] { color: white; }
 .message[type=notice] { color: #daefa3; }
 .message[type=action] { color: #88c26b; }
-.message[type=join] { color: #415459; }
-.message[type=part] { color: #415459; }
-.message[type=kick] { color: #415459; }
-.message[type=quit] { color: #415459; }
-.message[type=kill] { color: #415459; }
+.message[type=join] { color: #617B88; }
+.message[type=part] { color: #617B88; }
+.message[type=kick] { color: #617B88; }
+.message[type=quit] { color: #617B88; }
+.message[type=kill] { color: #617B88; }
 .message[type=nick] { color: #00afca; }
 .message[type=mode] { color: #d28f59; }
 .message[type=topic] { color: #00afca; }
