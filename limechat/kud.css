@@ -43,46 +43,27 @@ a:hover { text-decoration: none; }
 
 a[imageindex] {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: 1rem 1rem;
   padding: 0;
   max-width: 95%;
-  opacity: .5;
-  transition: all .5s ease;
+  text-align: center;
 }
-
-  a[imageindex]:hover {
-    opacity: 1;
-  }
-
-  a[imageindex]:after {
-    content: "";
-    position: absolute;
-    display: block;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: 1px solid #222;
-    border-radius: 0px;
-    box-shadow: none;
-    background: none;
-  }
-
   .inlineimage {
     position: relative;
     display: inline-block;
     margin: 0;
     padding: 0;
     border: 0;
-    border-radius: 0px;
+    border-radius: 4px;
     box-shadow: none;
+    border: 5px solid #222;
+    transition: all .5s ease;
   }
 
-    a[imageindex] + a[imageindex] {
-      margin-left: 1rem;
-    }
+  a[imageindex]:hover .inlineimage {
+    border: 5px solid #F5F5F5;
+  }
 
 /* lines */
 .line { padding: 0px 5px 0px 10px; }
@@ -105,8 +86,8 @@ a[imageindex] {
 .place { color: #d28f59; }
 
 /* nickname for text messages */
-.sender[type=myself] { color: #72AACA; }
 .sender[type=normal] { color: #69E14B; }
+.sender[type=myself] { color: #3194DB; }
 .sender[type=normal][colornumber='0'] {}
 .sender[type=normal][colornumber='1'] {}
 .sender[type=normal][colornumber='2'] {}
