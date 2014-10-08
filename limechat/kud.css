@@ -82,7 +82,7 @@ a[imageindex] {
 .url { word-break: break-all; }
 .address { text-decoration: underline; word-break: break-all; }
 .highlight { color: white; font-weight: bold; }
-.time { color: #415459; }
+.time { color: #494D50; }
 .place { color: #d28f59; }
 
 /* nickname for text messages */
@@ -120,13 +120,13 @@ a[imageindex] {
 .message[type=kick] { color: #617B88; }
 .message[type=quit] { color: #617B88; }
 .message[type=kill] { color: #617B88; }
-.message[type=nick] { color: #00afca; }
+.message[type=nick] { color: #9CD7F2; }
 .message[type=mode] { color: #d28f59; }
-.message[type=topic] { color: #00afca; }
-.message[type=invite] { color: #00afca; }
-.message[type=wallops] { color: #00afca; }
-.message[type=debug_send] { color: #00afca; }
-.message[type=debug_receive] { color: #00afca; }
+.message[type=topic] { color: #9CD7F2; }
+.message[type=invite] { color: #9CD7F2; }
+.message[type=wallops] { color: #9CD7F2; }
+.message[type=debug_send] { color: #9CD7F2; }
+.message[type=debug_receive] { color: #9CD7F2; }
 
 /* mIRC color effects */
 .effect[color-number='0'] {}

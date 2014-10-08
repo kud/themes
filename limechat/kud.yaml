@@ -1,6 +1,6 @@
 log-view:
   nickname-format: '%n ≻ '
-  scroller-highlight-color: '#c2339a'
+  scroller-highlight-color: '#E44B3B'
 input-text:
   font-family: 'Ubuntu Mono'
   font-size: 14.0
@@ -16,10 +16,10 @@ member-list:
   selected:
     color: 'white'
     background:
-      top-line-color: '#273146'
-      bottom-line-color: '#273146'
-      top-color: '#273146'
-      bottom-color: '#273146'
+      top-color: '#1A1A1A'
+      top-line-color: '#1A1A1A'
+      bottom-color: '#1A1A1A'
+      bottom-line-color: '#1A1A1A'
 server-tree:
   font-family: 'Ubuntu Mono'
   font-size: 14.0
@@ -41,7 +41,8 @@ server-tree:
     inactive:
       color: 'white'
     background:
+      # E44B3B
       top-color: '#1A1A1A'
       top-line-color: '#1A1A1A'
       bottom-color: '#1A1A1A'
-      bottom-line-color: '#E44B3B'
+      bottom-line-color: '#1A1A1A'
