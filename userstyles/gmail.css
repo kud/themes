@@ -1,0 +1,128 @@
+@-moz-document url-prefix("https://www.gmail.com/"),
+url-prefix("https://mail.google.com/") {
+  /* FIXME Center and resize search bar */
+  /*
+   * General
+   */
+  /* Hide */
+  /* Header */
+  div#gbqfbw,
+  /* Search button */
+  /* Sidebar */
+  div.aki.pp,
+  /* Gmail menu */
+  div.n6,
+  /* More button */
+  div#\:ur,
+  /* More section */
+  div.LrBjie.aJZ.a0L,
+  /* Categories button */
+  div.LrBjie.aat,
+  /* Circles button */
+  /* Body */
+  div.tq iframe,
+  /* People widget popup */
+  div.l2.ov,
+  /* Footer */
+  /* Mail */
+  td.Bu.y3,
+  /* People widget */
+  div.gA.gt.acV/* Reply/forward box */
+  {
+    display: none !important;
+  }
+  div#gbwa/* Google services button */
+  {
+    visibility: hidden;
+  }
+  div.nH.nn,
+  div.nH.nn div.nH,
+  div.A0,
+  div.A0 > div.aeF,
+  div.A0 > .nH,
+  div.A0 > table.Bs.nH.iY {
+    height: 100% !important;
+    min-height: 100%;
+  }
+  /* Other */
+  div#gbqfqw/* Fancy search bar */
+  {
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  div.gb_ve,
+  /* Header color */
+  div.gb_Ce,
+  div.gb_Ce:before {
+    background-color: transparent !important;
+  }
+  div.G-atb/* Hide bottom border top bar */
+  {
+    border-bottom: 0;
+  }
+  div#\:uq/* Always show expanable entries */
+  {
+    /* display: block !important;
+      border-top: 1px solid rgba(255,255,255,.2);
+      padding-top: 8px; */
+  }
+  /* Fix */
+  div.D.E.G-atb/* Offset body control buttons */
+  {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  div.nH.oy8Mbf.nn.aeN/* Offset top sidebar */
+  {
+    margin-top: 4px;
+  }
+  div#\:up/* Offset expanded entries */
+  {
+    padding-bottom: 8px;
+  }
+  td.Bu.yM/* People widget offset */
+  {
+    display: none;
+  }
+  div.nH.if/* People widget offset */
+  {
+    margin-right: 0;
+  }
+  div.ade/* Print and new window offset */
+  {
+    padding-right: 8px;
+  }
+  div.adn.ads/* Reply button and bottom offset */
+  {
+    padding-right: 4px;
+    padding-bottom: 0 !important;
+  }
+  div.gA.gt {
+    position: absolute;
+    /* Reposition reply box */
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: #FFFFFF !important;
+  }
+  div.gB.acO {
+    border-top: none !important;
+    /* Hide border reply box */
+  }
+  td.aoY {
+    display: none;
+    /* Hide own avatar reply box */
+  }
+  .J-KU-Jg.J-KU-Jg-Zc.aj5,
+  /* Hangout */
+  .aBS.J-J5-Ji,
+  /* keyboard */
+  .T-I.J-J5-Ji.apF.T-I-Js-IF.T-I-ax7.L3,
+  #itamenu,
+  .T-I.J-J5-Ji.T-I-Js-Gs.apG.T-I-ax7.L3 {
+    /* Layout position */
+    display: none;
+  }
+}
