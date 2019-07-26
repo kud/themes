@@ -1,0 +1,22 @@
+/* put your custom css here. */
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: "Operator Mono Lig", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.theme-light .markup-2BOw-j {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.markup-2BOw-j {
+  line-height: 1.4;
+}
+
+.markup-2BOw-j code {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
